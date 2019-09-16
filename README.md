@@ -11,7 +11,8 @@
     * IDEF0 -> [Расширеная](business/idef0-extedned.png) [Базовая](business/idef0-base.png)
     * IDEF3 -> [Installation](business/Installation(idef3).png)
     * DFD -> [System informating](business/System%20Informating%20(DFD).png)
-2. Разработать требования к изделию = это не что иное как ТЗ. 
+2. Разработать требования к изделию = это не что иное как ТЗ.  
+       [Tech Task](docs/Technical%20Task.pdf)
 3. Описать в табличном и текстовом спец виде USE CASE (это не UML) для реализации требований. Начальная формализация.
 4.1. На языке UML спроектировать  ПО:
     - написать USE CASE для требований (данные см. выше - текстовые use case из ТЗ).
