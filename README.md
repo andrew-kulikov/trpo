@@ -18,19 +18,17 @@
 3. Описать в табличном и текстовом спец виде USE CASE (это не UML) для реализации требований. Начальная формализация.
        [Tech Task](docs/Technical%20Task.pdf)
 
-4.1. На языке UML спроектировать  ПО:
+4. 
+   * На языке UML спроектировать  ПО:
+      * UML Database Logical Diagram -> [Logical](uml/DB_Logical.png)  
+      * UML Database Physical Diagram -> [Physical](uml/DB_Physical.png)  
+      * UML Class Diagram -> [Class](uml/class_diagram.jpg)  
 
-   * UML Database Logical Diagram -> [Logical](uml/DB_Logical.png)  
-   * UML Database Physical Diagram -> [Physical](uml/DB_Physical.png)  
-   * UML Class Diagram -> [Class](uml/class_diagram.jpg)  
+   * Спроектировать БД, сгенировать DDL и отчеты, построить БД, которая будет применяться в п. 4.1.   
+      * Все DDL скрипты лежат в проете Sql Server - [scripts](scripts/EconomicNews/EconomicNews)
 
-4.2. Спроектировать БД, сгенировать DDL и отчеты, построить БД, которая будет применяться в п. 4.1.  
-   
-   Все DDL скрипты лежат в проете Sql Server - [scripts](scripts/EconomicNews/EconomicNews)
-  
-5. Выполнить тестирование по любому критерию.  
-   
-   Построенное приложение на C# - [app](EconomicNews)
-   
+5. Выполнить тестирование по любому критерию.
+
+   * Построенное приложение на C# - [app](EconomicNews)
    * Тесты для приложения -> [tests](EconomicNews/EconomicNews.Tests)
    * Тестовое консольное приложение -> [console](EconomicNews/EconomicNews.App)
