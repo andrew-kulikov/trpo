@@ -11,14 +11,26 @@
     * IDEF0 -> [Расширеная](business/idef0-extedned.png) [Базовая](business/idef0-base.png)
     * IDEF3 -> [Installation](business/Installation(idef3).png)
     * DFD -> [System informating](business/System%20Informating%20(DFD).png)
+
 2. Разработать требования к изделию = это не что иное как ТЗ.  
        [Tech Task](docs/Technical%20Task.pdf)
+
 3. Описать в табличном и текстовом спец виде USE CASE (это не UML) для реализации требований. Начальная формализация.
+       [Tech Task](docs/Technical%20Task.pdf)
+
 4.1. На языке UML спроектировать  ПО:
-    - написать USE CASE для требований (данные см. выше - текстовые use case из ТЗ).
-    - промоделировать реализацию use case с помощью S.D. и  C.D. (появится связь требований и функций их реализующих, появятcя обьекты, затем классы и операции над ними);
-    - перейти и выполнить моделирование с помощью диаграмм классов, получить код для реализации (основа - см. диаграммы выше);
-    - построить диарамму компонент из диаграмм классов,
-    - получить приложение и показать его работу
-4.2. На языке IDEF1X спроектировать БД, сгенировать DDL и отчеты, построить БД, которая будет применяться в п. 4.1.
-5. Выполнить тестирование по любому критерию.
+
+   * UML Database Logical Diagram -> [Logical](uml/DB_Logical.png)  
+   * UML Database Physical Diagram -> [Physical](uml/DB_Physical.png)  
+   * UML Class Diagram -> [Class](uml/class_diagram.jpg)  
+
+4.2. Спроектировать БД, сгенировать DDL и отчеты, построить БД, которая будет применяться в п. 4.1.  
+   
+   Все DDL скрипты лежат в проете Sql Server - [scripts](scripts/EconomicNews/EconomicNews)
+  
+5. Выполнить тестирование по любому критерию.  
+   
+   Построенное приложение на C# - [app](EconomicNews)
+   
+   * Тесты для приложения -> [tests](EconomicNews/EconomicNews.Tests)
+   * Тестовое консольное приложение -> [console](EconomicNews/EconomicNews.App)
